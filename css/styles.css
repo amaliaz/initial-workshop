@@ -1,0 +1,121 @@
+.white {
+  background: white;
+  border: solid black 1px;
+  height: 200px;
+  width: 200px;
+  padding: 2%;
+}
+
+.red-target {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border: dotted black 2px;
+  padding: 45px;
+}
+
+.shaped-table {
+  width: 300px;
+  height: 150px;
+}
+
+td {
+  border: 2px solid black;
+  padding: 3rem;
+}
+
+.second-row :nth-child(2n+1) {
+  background: purple;
+}
+
+.purple-blocks {
+  width: 300px;
+  height: 100px;
+}
+
+.purple-blocks-child {
+  width: 300px;
+  height: 50px;
+  border: solid black 2px;
+  box-sizing: border-box;
+  margin: 5px;
+
+}
+
+.purple-blocks-child-two {
+  width: 300px;
+  height: 50px;
+  border: solid black 2px;
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+.a-block {
+  display: flex;
+  text-align: left;
+  color: white;
+  width: 50px;
+  height: 20px;
+  background: purple;
+  margin: 2px;
+  padding-left: 3px;
+}
+
+.b-block {
+  display: flex;
+  text-align: left;
+  color: white;
+  width: 250px;
+  height: 20px;
+  background: purple;
+  margin: 2px;
+  padding-left: 3px;
+}
+
+.c-block {
+  text-align: right;
+  color: white;
+  width: 237px;
+  height: 20px;
+  background: purple;
+  margin: 2px;
+  margin-left: auto;
+  padding-right: 3px;
+}
+
+.d-block {
+  text-align: right;
+  color: white;
+  width: 50px;
+  height: 20px;
+  background: purple;
+  margin: 2px;
+  padding-right: 3px;
+}
+
+.inline-block-rows {
+  width:300px;
+}
+.row-one-inline{
+  color: white;
+  width:300px;
+  height: 100px;
+  background: red;
+  margin: 10px;
+  padding: 2%;
+  font-size: 18px;
+
+}
+.row-two-inline{
+  color: white;
+  width:300px;
+  height: 100px;
+  background: black;
+  margin: 10px;
+  padding: 2%;
+  font-size: 18px;
+}
+.inline-block{
+  border-left : 2px;
+  border-right: 2px;
+}
